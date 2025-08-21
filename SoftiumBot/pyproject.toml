@@ -1,0 +1,19 @@
+[project]
+name = "softiumbot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Данил",email = "danil.arhishin@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram (>=3.21.0,<4.0.0)",
+    "pydantic[email] (>=2.11.7,<3.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
