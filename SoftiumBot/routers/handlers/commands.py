@@ -17,5 +17,5 @@ async def cmd_start(msg: Message, state: FSMContext):
 
 
 @router.message(Command("description"))
-async def cmd_start(msg: Message):
+async def cmd_description(msg: Message):
     await msg.answer("Описание бота")
