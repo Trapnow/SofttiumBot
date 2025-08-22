@@ -69,7 +69,7 @@ async def phone_handler(msg: Message, state: FSMContext):
 
         await state.clear()
 
-        await msg.bot.send_message(chat_id=-1002666561189,
+        await msg.bot.send_message(chat_id=-4860435909,
                                    text=f"Имя: {data["name"]}\n"
                                         f"Имя ребёнка: {data["child_name"]}\n"
                                         f"Школа: {data["school"]}\n"
