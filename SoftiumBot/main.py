@@ -3,14 +3,12 @@ from aiogram import Bot, Dispatcher
 
 from routers import router as main_router
 
-from dotenv import load_dotenv
-import os
+from config import BOT_TOKEN
+
 
 
 async def main():
-    load_dotenv()
-
-    bot = Bot(token=os.getenv('BOT_TOKEN'))
+    bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher()
     dp.include_router(main_router)
     await dp.start_polling(bot)
