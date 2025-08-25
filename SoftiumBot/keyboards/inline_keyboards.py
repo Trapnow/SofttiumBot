@@ -5,7 +5,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 def main_menu_ikb() -> InlineKeyboardMarkup:
     markup = InlineKeyboardBuilder()
     markup.add(InlineKeyboardButton(text="Презентация о школе",
-                                    url="https://disk.yandex.ru/d/duPIzgz3jNKVtg"),
+                                    url="https://disk.yandex.ru/i/o0AsHpKhDQnFqw"),
                InlineKeyboardButton(text="Наш ТГ-канал", callback_data="tg_chanel"),
                InlineKeyboardButton(text="Подобрать программу для ребёнка", callback_data="program"),
                InlineKeyboardButton(text="Запись на пробное занятие", callback_data="trial_session"),
